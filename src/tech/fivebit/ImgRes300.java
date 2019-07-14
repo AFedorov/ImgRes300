@@ -71,6 +71,7 @@ public class ImgRes300 {
         if (heightCrop > sourceImage.height()) {
             heightCrop = sourceImage.height();
         }
+
         int widthCrop = (int) (201*((double)heightCrop/283));
         if (sourceImage.height() < heightCrop) {System.out.println("Image height > crop height");}
 
